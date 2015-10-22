@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B115F5E1928F622004D1DC6 /* Locamatic Engine.app in Resources */ = {isa = PBXBuildFile; fileRef = 8B115F5D1928F622004D1DC6 /* Locamatic Engine.app */; };
+		8B259BC118CB884F00D82040 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD4255F18A8D289005768F1 /* Sparkle.framework */; };
+		8B338AFC184E6B4100475A2F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B338AFB184E6B4100475A2F /* Cocoa.framework */; };
+		8B338AFE184E6B4100475A2F /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B338AFD184E6B4100475A2F /* PreferencePanes.framework */; };
+		8B338B08184E6B4100475A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B06184E6B4100475A2F /* InfoPlist.strings */; };
+		8B338B0C184E6B4100475A2F /* Locamatic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B338B0B184E6B4100475A2F /* Locamatic.m */; };
+		8B338B0E184E6B4100475A2F /* Locamatic.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B0D184E6B4100475A2F /* Locamatic.tiff */; };
+		8B338B11184E6B4100475A2F /* Locamatic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B0F184E6B4100475A2F /* Locamatic.xib */; };
+		8B338B1A184E6BCA00475A2F /* AutoShifter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B18184E6BCA00475A2F /* AutoShifter@2x.png */; };
+		8B338B1B184E6BCA00475A2F /* AutoShifter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B19184E6BCA00475A2F /* AutoShifter.png */; };
+		8B338B21184E727400475A2F /* VerticallyCentredCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B338B1D184E727400475A2F /* VerticallyCentredCell.h */; };
+		8B338B22184E727400475A2F /* VerticallyCentredCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B338B1E184E727400475A2F /* VerticallyCentredCell.m */; };
+		8B338B26184E72E500475A2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B338B25184E72E500475A2F /* SystemConfiguration.framework */; };
+		8B338B29184E7A6D00475A2F /* Locamatic.searchTerms in Resources */ = {isa = PBXBuildFile; fileRef = 8B338B2B184E7A6D00475A2F /* Locamatic.searchTerms */; };
+		8B4B34E518B3A03F00428B04 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B34E418B3A03F00428B04 /* dsa_pub.pem */; };
+		8B5BE79A185215BD007EAE82 /* SwitchRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BE796185215BD007EAE82 /* SwitchRight.png */; };
+		8B5BE79B185215BD007EAE82 /* SwitchLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BE797185215BD007EAE82 /* SwitchLeft.png */; };
+		8B5BE79C185215BD007EAE82 /* SwitchLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BE798185215BD007EAE82 /* SwitchLeft@2x.png */; };
+		8B5BE79D185215BD007EAE82 /* SwitchRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BE799185215BD007EAE82 /* SwitchRight@2x.png */; };
+		8B5BE79F185238A4007EAE82 /* LocamaticPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BE79E185238A4007EAE82 /* LocamaticPref.tiff */; };
+		8BD4256218A8D89C005768F1 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BD4255F18A8D289005768F1 /* Sparkle.framework */; };
+		8BE59C6F185CB39C00422F53 /* Validators.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE59C6D185CB39C00422F53 /* Validators.h */; };
+		8BE59C70185CB39C00422F53 /* Validators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE59C6E185CB39C00422F53 /* Validators.m */; };
+		8BE59C75185CB71200422F53 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE59C71185CB71200422F53 /* check.png */; };
+		8BE59C76185CB71200422F53 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE59C72185CB71200422F53 /* check@2x.png */; };
+		8BE59C77185CB71200422F53 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE59C73185CB71200422F53 /* cross.png */; };
+		8BE59C78185CB71200422F53 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE59C74185CB71200422F53 /* cross@2x.png */; };
+		8BE59C7A185CC07000422F53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE59C79185CC07000422F53 /* libcrypto.dylib */; };
+		8BE59C7C185CC45900422F53 /* public.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8BE59C7B185CC45900422F53 /* public.pem */; };
+		8BE59C83185CDFA000422F53 /* AddToLoginItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE59C81185CDFA000422F53 /* AddToLoginItems.h */; };
+		8BE59C84185CDFA000422F53 /* AddToLoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE59C82185CDFA000422F53 /* AddToLoginItems.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BD4256118A8D87F005768F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BD4256218A8D89C005768F1 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B115F5D1928F622004D1DC6 /* Locamatic Engine.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Locamatic Engine.app"; sourceTree = "<group>"; };
+		8B338AF8184E6B4100475A2F /* Locamatic.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Locamatic.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B338AFB184E6B4100475A2F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8B338AFD184E6B4100475A2F /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		8B338B00184E6B4100475A2F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8B338B01184E6B4100475A2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8B338B02184E6B4100475A2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B338B05184E6B4100475A2F /* Locamatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Locamatic-Info.plist"; sourceTree = "<group>"; };
+		8B338B07184E6B4100475A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B338B09184E6B4100475A2F /* Locamatic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locamatic-Prefix.pch"; sourceTree = "<group>"; };
+		8B338B0A184E6B4100475A2F /* Locamatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Locamatic.h; sourceTree = "<group>"; };
+		8B338B0B184E6B4100475A2F /* Locamatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Locamatic.m; sourceTree = "<group>"; };
+		8B338B0D184E6B4100475A2F /* Locamatic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Locamatic.tiff; sourceTree = "<group>"; };
+		8B338B10184E6B4100475A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Locamatic.xib; sourceTree = "<group>"; };
+		8B338B18184E6BCA00475A2F /* AutoShifter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AutoShifter@2x.png"; sourceTree = "<group>"; };
+		8B338B19184E6BCA00475A2F /* AutoShifter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoShifter.png; sourceTree = "<group>"; };
+		8B338B1D184E727400475A2F /* VerticallyCentredCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyCentredCell.h; sourceTree = "<group>"; };
+		8B338B1E184E727400475A2F /* VerticallyCentredCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyCentredCell.m; sourceTree = "<group>"; };
+		8B338B25184E72E500475A2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B338B2A184E7A6D00475A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Locamatic.searchTerms; sourceTree = "<group>"; };
+		8B338B2C184E7A7700475A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/Locamatic.searchTerms; sourceTree = "<group>"; };
+		8B4B34E418B3A03F00428B04 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		8B5BE796185215BD007EAE82 /* SwitchRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchRight.png; sourceTree = "<group>"; };
+		8B5BE797185215BD007EAE82 /* SwitchLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchLeft.png; sourceTree = "<group>"; };
+		8B5BE798185215BD007EAE82 /* SwitchLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwitchLeft@2x.png"; sourceTree = "<group>"; };
+		8B5BE799185215BD007EAE82 /* SwitchRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwitchRight@2x.png"; sourceTree = "<group>"; };
+		8B5BE79E185238A4007EAE82 /* LocamaticPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LocamaticPref.tiff; sourceTree = "<group>"; };
+		8BD4255F18A8D289005768F1 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		8BE59C6D185CB39C00422F53 /* Validators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validators.h; sourceTree = "<group>"; };
+		8BE59C6E185CB39C00422F53 /* Validators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validators.m; sourceTree = "<group>"; };
+		8BE59C71185CB71200422F53 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		8BE59C72185CB71200422F53 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		8BE59C73185CB71200422F53 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		8BE59C74185CB71200422F53 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		8BE59C79185CC07000422F53 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		8BE59C7B185CC45900422F53 /* public.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public.pem; sourceTree = "<group>"; };
+		8BE59C81185CDFA000422F53 /* AddToLoginItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToLoginItems.h; sourceTree = "<group>"; };
+		8BE59C82185CDFA000422F53 /* AddToLoginItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToLoginItems.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B338AF3184E6B4100475A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE59C7A185CC07000422F53 /* libcrypto.dylib in Frameworks */,
+				8B338B26184E72E500475A2F /* SystemConfiguration.framework in Frameworks */,
+				8B338AFC184E6B4100475A2F /* Cocoa.framework in Frameworks */,
+				8B338AFE184E6B4100475A2F /* PreferencePanes.framework in Frameworks */,
+				8B259BC118CB884F00D82040 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B338AED184E6B4100475A2F = {
+			isa = PBXGroup;
+			children = (
+				8B338B1C184E726500475A2F /* Other Sources */,
+				8B338B17184E6BBA00475A2F /* Resources */,
+				8B338B03184E6B4100475A2F /* Locamatic */,
+				8B338AFA184E6B4100475A2F /* Frameworks */,
+				8B338AF9184E6B4100475A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B338AF9184E6B4100475A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B338AF8184E6B4100475A2F /* Locamatic.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B338AFA184E6B4100475A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD4255F18A8D289005768F1 /* Sparkle.framework */,
+				8BE59C79185CC07000422F53 /* libcrypto.dylib */,
+				8B338B25184E72E500475A2F /* SystemConfiguration.framework */,
+				8B338AFB184E6B4100475A2F /* Cocoa.framework */,
+				8B338AFD184E6B4100475A2F /* PreferencePanes.framework */,
+				8B338AFF184E6B4100475A2F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B338AFF184E6B4100475A2F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B338B00184E6B4100475A2F /* AppKit.framework */,
+				8B338B01184E6B4100475A2F /* CoreData.framework */,
+				8B338B02184E6B4100475A2F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8B338B03184E6B4100475A2F /* Locamatic */ = {
+			isa = PBXGroup;
+			children = (
+				8B338B0A184E6B4100475A2F /* Locamatic.h */,
+				8B338B0B184E6B4100475A2F /* Locamatic.m */,
+				8B338B0D184E6B4100475A2F /* Locamatic.tiff */,
+				8B338B0F184E6B4100475A2F /* Locamatic.xib */,
+				8B338B04184E6B4100475A2F /* Supporting Files */,
+			);
+			path = Locamatic;
+			sourceTree = "<group>";
+		};
+		8B338B04184E6B4100475A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B338B05184E6B4100475A2F /* Locamatic-Info.plist */,
+				8B338B06184E6B4100475A2F /* InfoPlist.strings */,
+				8B338B09184E6B4100475A2F /* Locamatic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B338B17184E6BBA00475A2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B34E418B3A03F00428B04 /* dsa_pub.pem */,
+				8BE59C7B185CC45900422F53 /* public.pem */,
+				8BE59C71185CB71200422F53 /* check.png */,
+				8BE59C72185CB71200422F53 /* check@2x.png */,
+				8BE59C73185CB71200422F53 /* cross.png */,
+				8B115F5D1928F622004D1DC6 /* Locamatic Engine.app */,
+				8BE59C74185CB71200422F53 /* cross@2x.png */,
+				8B5BE79E185238A4007EAE82 /* LocamaticPref.tiff */,
+				8B5BE796185215BD007EAE82 /* SwitchRight.png */,
+				8B5BE797185215BD007EAE82 /* SwitchLeft.png */,
+				8B5BE798185215BD007EAE82 /* SwitchLeft@2x.png */,
+				8B5BE799185215BD007EAE82 /* SwitchRight@2x.png */,
+				8B338B2B184E7A6D00475A2F /* Locamatic.searchTerms */,
+				8B338B18184E6BCA00475A2F /* AutoShifter@2x.png */,
+				8B338B19184E6BCA00475A2F /* AutoShifter.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B338B1C184E726500475A2F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B338B1D184E727400475A2F /* VerticallyCentredCell.h */,
+				8B338B1E184E727400475A2F /* VerticallyCentredCell.m */,
+				8BE59C6D185CB39C00422F53 /* Validators.h */,
+				8BE59C6E185CB39C00422F53 /* Validators.m */,
+				8BE59C81185CDFA000422F53 /* AddToLoginItems.h */,
+				8BE59C82185CDFA000422F53 /* AddToLoginItems.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B338AF4184E6B4100475A2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B338B21184E727400475A2F /* VerticallyCentredCell.h in Headers */,
+				8BE59C83185CDFA000422F53 /* AddToLoginItems.h in Headers */,
+				8BE59C6F185CB39C00422F53 /* Validators.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B338AF7184E6B4100475A2F /* Locamatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B338B14184E6B4100475A2F /* Build configuration list for PBXNativeTarget "Locamatic" */;
+			buildPhases = (
+				8B338AF2184E6B4100475A2F /* Sources */,
+				8B338AF3184E6B4100475A2F /* Frameworks */,
+				8B338AF4184E6B4100475A2F /* Headers */,
+				8B338AF5184E6B4100475A2F /* Resources */,
+				8B338AF6184E6B4100475A2F /* Rez */,
+				8BD4256118A8D87F005768F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locamatic;
+			productName = Locamatic;
+			productReference = 8B338AF8184E6B4100475A2F /* Locamatic.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B338AEE184E6B4100475A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pascal Harris";
+			};
+			buildConfigurationList = 8B338AF1184E6B4100475A2F /* Build configuration list for PBXProject "Locamatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B338AED184E6B4100475A2F;
+			productRefGroup = 8B338AF9184E6B4100475A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B338AF7184E6B4100475A2F /* Locamatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B338AF5184E6B4100475A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE59C77185CB71200422F53 /* cross.png in Resources */,
+				8B5BE79F185238A4007EAE82 /* LocamaticPref.tiff in Resources */,
+				8BE59C75185CB71200422F53 /* check.png in Resources */,
+				8BE59C78185CB71200422F53 /* cross@2x.png in Resources */,
+				8B5BE79A185215BD007EAE82 /* SwitchRight.png in Resources */,
+				8B5BE79D185215BD007EAE82 /* SwitchRight@2x.png in Resources */,
+				8B338B0E184E6B4100475A2F /* Locamatic.tiff in Resources */,
+				8B5BE79C185215BD007EAE82 /* SwitchLeft@2x.png in Resources */,
+				8B338B1A184E6BCA00475A2F /* AutoShifter@2x.png in Resources */,
+				8BE59C7C185CC45900422F53 /* public.pem in Resources */,
+				8B338B11184E6B4100475A2F /* Locamatic.xib in Resources */,
+				8B338B1B184E6BCA00475A2F /* AutoShifter.png in Resources */,
+				8B4B34E518B3A03F00428B04 /* dsa_pub.pem in Resources */,
+				8B338B08184E6B4100475A2F /* InfoPlist.strings in Resources */,
+				8B5BE79B185215BD007EAE82 /* SwitchLeft.png in Resources */,
+				8B338B29184E7A6D00475A2F /* Locamatic.searchTerms in Resources */,
+				8B115F5E1928F622004D1DC6 /* Locamatic Engine.app in Resources */,
+				8BE59C76185CB71200422F53 /* check@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8B338AF6184E6B4100475A2F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B338AF2184E6B4100475A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B338B22184E727400475A2F /* VerticallyCentredCell.m in Sources */,
+				8BE59C70185CB39C00422F53 /* Validators.m in Sources */,
+				8B338B0C184E6B4100475A2F /* Locamatic.m in Sources */,
+				8BE59C84185CDFA000422F53 /* AddToLoginItems.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B338B06184E6B4100475A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B338B07184E6B4100475A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B338B0F184E6B4100475A2F /* Locamatic.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B338B10184E6B4100475A2F /* Base */,
+			);
+			name = Locamatic.xib;
+			sourceTree = "<group>";
+		};
+		8B338B2B184E7A6D00475A2F /* Locamatic.searchTerms */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B338B2A184E7A6D00475A2F /* Base */,
+				8B338B2C184E7A7700475A2F /* en */,
+			);
+			name = Locamatic.searchTerms;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B338B12184E6B4100475A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.8;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8B338B13184E6B4100475A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.8;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		8B338B15184E6B4100475A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/User\\ Accounts/Users/pascalharris/Dropbox/Locamatic/Locamatic\\ PreferencePane",
+					"/Users/pascalharris/Dropbox/Locamatic/Locamatic\\ PreferencePane",
+					"/Volumes/User\\ Accounts/Users/pascalharris/Development/In\\ Flight/Locamatic/Locamatic\\ PreferencePane",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locamatic/Locamatic-Prefix.pch";
+				INFOPLIST_FILE = "Locamatic/Locamatic-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		8B338B16184E6B4100475A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/User\\ Accounts/Users/pascalharris/Dropbox/Locamatic/Locamatic\\ PreferencePane",
+					"/Users/pascalharris/Dropbox/Locamatic/Locamatic\\ PreferencePane",
+					"/Volumes/User\\ Accounts/Users/pascalharris/Development/In\\ Flight/Locamatic/Locamatic\\ PreferencePane",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locamatic/Locamatic-Prefix.pch";
+				INFOPLIST_FILE = "Locamatic/Locamatic-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B338AF1184E6B4100475A2F /* Build configuration list for PBXProject "Locamatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B338B12184E6B4100475A2F /* Debug */,
+				8B338B13184E6B4100475A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B338B14184E6B4100475A2F /* Build configuration list for PBXNativeTarget "Locamatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B338B15184E6B4100475A2F /* Debug */,
+				8B338B16184E6B4100475A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B338AEE184E6B4100475A2F /* Project object */;
+}

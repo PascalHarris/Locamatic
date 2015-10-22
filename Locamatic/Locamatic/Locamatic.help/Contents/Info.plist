@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HPDBookIndexPath</key>
+	<string>locamatic.helpindex</string>
+	<key>HPDBookType</key>
+	<string>3</string>
+	<key>HPDBookTitle</key>
+	<string>Locamatic Help</string>
+	<key>HPDBookIconPath</key>
+	<string>shared/locamaticicon.png</string>
+	<key>HPDBookAccessPath</key>
+	<string>LocamaticHelp.html</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleName</key>
+	<string>Locamatic</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.45rpmsoftware.Locamatic.help</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_GB</string>
+</dict>
+</plist>
